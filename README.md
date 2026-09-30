@@ -43,6 +43,15 @@ Next.js ve React ile web uygulamaları geliştiriyorum.<br />
 ### ⏱️ Bu hafta kod yazarken
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 22 September 2026 - To: 29 September 2026
+
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ### 🎧 Son dinlediklerim
