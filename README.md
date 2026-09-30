@@ -55,6 +55,6 @@ Next.js ve React ile web uygulamaları geliştiriyorum.<br />
 
 ### 🎧 Son dinlediklerim
 
-<img alt="Spotify'da son dinlenenler" src="https://spotify-recently-played-readme.vercel.app/api?user=31efmabncplixn3hvbz3almkpxte&width=1000" />
+<img alt="Spotify'da son dinlenenler" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31efmabncplixn3hvbz3almkpxte&count=8&width=810&explicit=0" />
 
 </div>
