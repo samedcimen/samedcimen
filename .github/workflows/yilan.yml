@@ -1,11 +1,11 @@
 # GitHub katkı tablosundan yılan animasyonu üretir ve "output" dalına yazar.
-# README bu daldaki SVG'leri gösterir. Her gün kendiliğinden yenilenir;
+# README bu daldaki SVG'leri gösterir. 12 saatte bir kendiliğinden yenilenir;
 # Actions sekmesinden elle de çalıştırılabilir.
 name: Katkı yılanı
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches: [main]
