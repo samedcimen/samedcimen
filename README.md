@@ -45,19 +45,13 @@ Next.js ve React ile web uygulamaları geliştiriyorum.<br />
   <img alt="GitHub katkı yılanı" src="https://raw.githubusercontent.com/samedcimen/samedcimen/output/github-contribution-grid-snake.svg" />
 </picture>
 
-### ⏱️ Bu hafta kod yazarken
+### ⏱️ Kodlama süresi
 
-<!--START_SECTION:waka-->
-
-```txt
-From: 22 September 2026 - To: 29 September 2026
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-koyu.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-acik.svg" />
+  <img alt="Bu hafta kod yazarken (WakaTime)" src="./profile/wakatime-acik.svg" />
+</picture>
 
 ### 🎧 Son dinlediklerim
 

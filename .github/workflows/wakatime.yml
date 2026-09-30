@@ -1,11 +1,15 @@
-# WakaTime'daki son 7 günlük kodlama süresini README'deki waka bölümüne yazar.
-# WAKATIME_API_KEY secret'ı eklenene kadar hiçbir şey yapmadan başarıyla biter.
+# WakaTime'daki son 7 günün (bugün dahil) kodlama süresinden Türkçe kart üretir:
+# profile/wakatime-koyu.svg ve profile/wakatime-acik.svg (scripts/wakatime-kart.mjs).
+# WAKATIME_API_KEY secret'ı yoksa hiçbir şey yapmadan başarıyla biter.
 name: WakaTime
 
 on:
   schedule:
     - cron: "15 */12 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/wakatime.yml", "scripts/wakatime-kart.mjs"]
 
 permissions:
   contents: write
@@ -19,17 +23,27 @@ jobs:
     steps:
       - name: Anahtar yok, atlanıyor
         if: env.ANAHTAR_VAR != 'true'
-        run: echo "WAKATIME_API_KEY secret'ı tanımlı değil, WakaTime bölümü güncellenmedi."
+        run: echo "WAKATIME_API_KEY secret'ı tanımlı değil, WakaTime kartı güncellenmedi."
 
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@v6
+        if: env.ANAHTAR_VAR == 'true'
+
+      - uses: actions/setup-node@v6
         if: env.ANAHTAR_VAR == 'true'
         with:
+          node-version: 22
+
+      - name: Kartı üret
+        if: env.ANAHTAR_VAR == 'true'
+        run: node scripts/wakatime-kart.mjs
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          TIME_RANGE: last_7_days
-          LANG_COUNT: 6
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          BLOCKS: ░▒▓█
-          CODE_LANG: txt
-          COMMIT_MESSAGE: WakaTime istatistiklerini güncelle
+
+      - name: Kartı kaydet
+        if: env.ANAHTAR_VAR == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/wakatime-*.svg
+          git commit -m "WakaTime kartını güncelle" || exit 0
+          git push
