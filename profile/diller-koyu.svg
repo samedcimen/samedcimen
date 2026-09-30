@@ -1,8 +1,8 @@
 
       <svg
-        width="300"
-        height="140"
-        viewBox="0 0 300 140"
+        width="400"
+        height="205"
+        viewBox="0 0 400 205"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -100,7 +100,7 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="299"
+          width="399"
           fill="#0d1117"
           stroke-opacity="0"
         />
@@ -127,68 +127,64 @@
         >
           
     <svg data-testid="lang-items" x="25">
-      
-  
-      <mask id="rect-mask">
-          <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
-        </mask>
-        
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="0"
-          y="0"
-          width="225.75"
-          height="8"
-          fill="#3178c6"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="225.75"
-          y="0"
-          width="19.84"
-          height="8"
-          fill="#663399"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="245.59"
-          y="0"
-          width="14.42"
-          height="8"
-          fill="#f1e05a"
-        />
-      
-      
-    <g transform="translate(0, 25)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+      <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#3178c6" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 90.30%
-      </text>
+      <text data-testid="lang-name" x="2" y="15" class="lang-name">TypeScript</text>
+      <text x="315" y="34" class="lang-name">90.30%</text>
+      
+    <svg width="305" x="0" y="25">
+      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="305" height="8"></rect>
+      <svg data-testid="lang-progress" width="90.2988945918931%">
+        <rect
+            height="8"
+            fill="#3178c6"
+            rx="5" ry="5" x="0" y="0"
+            class="lang-progress"
+            style="animation-delay: 750ms;"
+        />
+      </svg>
+    </svg>
+  
     </g>
-  </g><g transform="translate(0, 25)">
+  </g><g transform="translate(0, 40)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#663399" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CSS 7.93%
-      </text>
-    </g>
-  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 1.77%
-      </text>
-    </g>
-  </g></g>
-    </g>
+      <text data-testid="lang-name" x="2" y="15" class="lang-name">CSS</text>
+      <text x="315" y="34" class="lang-name">7.93%</text>
+      
+    <svg width="305" x="0" y="25">
+      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="305" height="8"></rect>
+      <svg data-testid="lang-progress" width="7.934392489466781%">
+        <rect
+            height="8"
+            fill="#663399"
+            rx="5" ry="5" x="0" y="0"
+            class="lang-progress"
+            style="animation-delay: 900ms;"
+        />
+      </svg>
+    </svg>
   
+    </g>
+  </g><g transform="translate(0, 80)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <text data-testid="lang-name" x="2" y="15" class="lang-name">JavaScript</text>
+      <text x="315" y="34" class="lang-name">1.77%</text>
+      
+    <svg width="305" x="0" y="25">
+      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="305" height="8"></rect>
+      <svg data-testid="lang-progress" width="2%">
+        <rect
+            height="8"
+            fill="#f1e05a"
+            rx="5" ry="5" x="0" y="0"
+            class="lang-progress"
+            style="animation-delay: 1050ms;"
+        />
+      </svg>
+    </svg>
+  
+    </g>
+  </g>
     </svg>
   
         </g>

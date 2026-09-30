@@ -1,15 +1,15 @@
 
       <svg
-        width="467"
-        height="195"
-        viewBox="0 0 467 195"
+        width="400"
+        height="205"
+        viewBox="0 0 400 205"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Samed &#199;&#304;MEN Hesab&#305;n&#305;n GitHub &#304;statistikleri, Rank: C</title>
-        <desc id="descId">Toplam Y&#305;ld&#305;z: 0, Toplam Commit  : 56, Toplam PR: 0, Toplam Hata: 0, Katk&#305; Verildi (ge&#231;en y&#305;l): 0</desc>
+        <title id="titleId">&#304;statistikler, Rank: C</title>
+        <desc id="descId">Toplam Y&#305;ld&#305;z: 0, Toplam Commit  : 60, Toplam PR: 0, Katk&#305; Verildi (ge&#231;en y&#305;l): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 249.73263323746866;
+        stroke-dashoffset: 249.62107170764665;
       }
     }
   
@@ -117,7 +117,7 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="466"
+          width="399"
           fill="#0d1117"
           stroke-opacity="0"
         />
@@ -133,7 +133,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Samed &#199;&#304;MEN Hesab&#305;n&#305;n GitHub &#304;statistikleri</text>
+      >&#304;statistikler</text>
     </g>
       </g>
     
@@ -143,18 +143,7 @@
           transform="translate(0, 55)"
         >
           
-    <g data-testid="rank-circle"
-          transform="translate(390.5, 47.5)">
-        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" />
-        <g class="rank-text">
-          
-        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          C
-        </text>
-      
-        </g>
-      </g>
+    
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
@@ -171,7 +160,7 @@
         data-testid="stars"
       >0</text>
     </g>
-  </g><g transform="translate(0, 25)">
+  </g><g transform="translate(0, 32)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
@@ -184,9 +173,9 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >56</text>
+      >60</text>
     </g>
-  </g><g transform="translate(0, 50)">
+  </g><g transform="translate(0, 64)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
@@ -201,23 +190,8 @@
         data-testid="prs"
       >0</text>
     </g>
-  </g><g transform="translate(0, 75)">
+  </g><g transform="translate(0, 96)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Toplam Hata:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="issues"
-      >0</text>
-    </g>
-  </g><g transform="translate(0, 100)">
-    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
