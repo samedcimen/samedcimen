@@ -27,6 +27,11 @@ Next.js ve React ile web uygulamaları geliştiriyorum.<br />
   <source media="(prefers-color-scheme: light)" srcset="./profile/istatistik-acik.svg" />
   <img alt="GitHub istatistikleri" src="./profile/istatistik-acik.svg" />
 </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/diller-koyu.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/diller-acik.svg" />
+  <img alt="En çok kullanılan diller" src="./profile/diller-acik.svg" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=samedcimen&locale=tr&theme=github-dark-blue&hide_border=true" />
