@@ -1,0 +1,19 @@
+<svg width="810" height="120" viewBox="0 0 810 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="baslik">
+  <title id="baslik">Bu hafta kod yazarken: 0 dk</title>
+  <style>
+    .baslik { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b5cf6; }
+    .ozet { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c3d1d9; }
+    .aralik { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    .dil { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c3d1d9; }
+    .deger { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    .satir { opacity: 0; animation: belir 0.4s ease-out forwards; }
+    .dolgu { transform-box: fill-box; transform-origin: left; animation: uza 0.8s ease-out forwards; }
+    @keyframes belir { to { opacity: 1; } }
+    @keyframes uza { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  </style>
+  <rect x="0.5" y="0.5" width="809" height="119" rx="4.5" fill="#0d1117" />
+  <text x="25" y="35" class="baslik">Bu Hafta Kod Yazarken</text>
+  <text x="25" y="62" class="ozet">Toplam: 0 dk</text>
+  <text x="785" y="62" class="aralik" text-anchor="end">24 Eylül – 30 Eylül</text>
+  <text x="25" y="100" class="dil">Bu hafta henüz ölçülmüş kodlama süresi yok.</text>
+</svg>
