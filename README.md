@@ -16,7 +16,13 @@ Next.js ve React ile web uygulamaları geliştiriyorum.<br />
   <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,nodejs,vercel,vscode&perline=8" alt="Next.js, React, TypeScript, Tailwind CSS, Prisma, Node.js, Vercel, VS Code" />
 </a>
 
-### 🔥 Katkı serisi
+### 📊 GitHub istatistikleri
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/istatistik-koyu.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/istatistik-acik.svg" />
+  <img alt="GitHub istatistikleri" src="./profile/istatistik-acik.svg" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=samedcimen&locale=tr&theme=github-dark-blue&hide_border=true" />
