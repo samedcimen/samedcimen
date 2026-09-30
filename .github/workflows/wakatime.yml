@@ -1,0 +1,35 @@
+# WakaTime'daki son 7 günlük kodlama süresini README'deki waka bölümüne yazar.
+# WAKATIME_API_KEY secret'ı eklenene kadar hiçbir şey yapmadan başarıyla biter.
+name: WakaTime
+
+on:
+  schedule:
+    - cron: "15 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      ANAHTAR_VAR: ${{ secrets.WAKATIME_API_KEY != '' }}
+    steps:
+      - name: Anahtar yok, atlanıyor
+        if: env.ANAHTAR_VAR != 'true'
+        run: echo "WAKATIME_API_KEY secret'ı tanımlı değil, WakaTime bölümü güncellenmedi."
+
+      - uses: athul/waka-readme@master
+        if: env.ANAHTAR_VAR == 'true'
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 6
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          BLOCKS: ░▒▓█
+          CODE_LANG: txt
+          COMMIT_MESSAGE: WakaTime istatistiklerini güncelle

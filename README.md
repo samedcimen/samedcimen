@@ -40,6 +40,11 @@ Next.js ve React ile web uygulamaları geliştiriyorum.<br />
   <img alt="GitHub katkı yılanı" src="https://raw.githubusercontent.com/samedcimen/samedcimen/output/github-contribution-grid-snake.svg" />
 </picture>
 
+### ⏱️ Bu hafta kod yazarken
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ### 🎧 Son dinlediklerim
 
 <img alt="Spotify'da son dinlenenler" src="https://spotify-recently-played-readme.vercel.app/api?user=31efmabncplixn3hvbz3almkpxte&width=1000" />
