@@ -1,6 +1,7 @@
 # GitHub istatistik ve dil kartlarını üretip profile/ klasörüne yazar.
 # Private depolar da sayılsın diye STATS_TOKEN secret'ı (repo + read:user yetkili PAT)
 # eklenirse onu kullanır; yoksa varsayılan anahtarla yalnızca public depolar sayılır.
+# İki kart da 205px yüksekliğinde: istatistik 4 satır x 32px, dil kartı 3 dil (normal düzen).
 name: Profil kartları
 
 on:
@@ -27,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: ${{ env.ORTAK }}&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6
+          options: ${{ env.ORTAK }}&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide=issues&line_height=32&card_width=400&custom_title=%C4%B0statistikler&theme=github_dark&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6
           path: profile/istatistik-koyu.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
@@ -35,7 +36,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: ${{ env.ORTAK }}&show_icons=true&count_private=true&include_all_commits=true&title_color=7c3aed&icon_color=7c3aed
+          options: ${{ env.ORTAK }}&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide=issues&line_height=32&card_width=400&custom_title=%C4%B0statistikler&title_color=7c3aed&icon_color=7c3aed
           path: profile/istatistik-acik.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
@@ -43,7 +44,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: ${{ env.ORTAK }}&layout=compact&langs_count=8&theme=github_dark&bg_color=0d1117&title_color=8b5cf6
+          options: ${{ env.ORTAK }}&langs_count=3&card_width=400&theme=github_dark&bg_color=0d1117&title_color=8b5cf6
           path: profile/diller-koyu.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
@@ -51,7 +52,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: ${{ env.ORTAK }}&layout=compact&langs_count=8&title_color=7c3aed
+          options: ${{ env.ORTAK }}&langs_count=3&card_width=400&title_color=7c3aed
           path: profile/diller-acik.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
