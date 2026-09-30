@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=28&duration=3000&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&height=50&lines=Merhaba%2C+ben+Samed+%F0%9F%91%8B;Next.js+%26+React+ile+web+geli%C5%9Ftiriyorum;%C5%9Eu+s%C4%B1ralar%3A+izleoloji+%F0%9F%8E%AC" alt="Merhaba, ben Samed" />
 
-[![](https://visitcount.itsvg.in/api?id=samedcimen&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
+![Profil görüntülenme](https://komarev.com/ghpvc/?username=samedcimen[![](https://visitcount.itsvg.in/api?id=samedcimen&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)label=Profil%20g%C3%B6r%C3%BCnt%C3%BClenme[![](https://visitcount.itsvg.in/api?id=samedcimen&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)color=8b5cf6[![](https://visitcount.itsvg.in/api?id=samedcimen&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)style=for-the-badge)
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/samedcimen)
 
 </div>
