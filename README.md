@@ -5,12 +5,10 @@
 ![Profil görüntülenme](https://komarev.com/ghpvc/?username=samedcimen&label=Profil%20g%C3%B6r%C3%BCnt%C3%BClenme&color=8b5cf6&style=for-the-badge)
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/samedcimen)
 
-</div>
-
 ### 👨‍💻 Hakkımda
 
-- Next.js ve React ile web uygulamaları geliştiriyorum.
-- Şu sıralar **[izleoloji](https://izleoloji.vercel.app)** üzerinde çalışıyorum: izlediğin film ve dizileri kaydedip arkadaşlarınla paylaşabileceğin bir platform. 🎬
+Next.js ve React ile web uygulamaları geliştiriyorum.<br />
+Şu sıralar **[izleoloji](https://izleoloji.vercel.app)** üzerinde çalışıyorum: izlediğin film ve dizileri kaydedip arkadaşlarınla paylaşabileceğin bir platform. 🎬
 
 ### 🛠️ Kullandığım araçlar
 
@@ -34,4 +32,6 @@
 
 ### 🎧 Son dinlediklerim
 
-![Spotify'da son dinlenenler](https://spotify-recently-played-readme.vercel.app/api?user=31efmabncplixn3hvbz3almkpxte&width=1000)
+<img alt="Spotify'da son dinlenenler" src="https://spotify-recently-played-readme.vercel.app/api?user=31efmabncplixn3hvbz3almkpxte&width=1000" />
+
+</div>
