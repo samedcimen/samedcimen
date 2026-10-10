@@ -1,5 +1,5 @@
 <svg width="810" height="254" viewBox="0 0 810 254" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="baslik">
-  <title id="baslik">Bu hafta kod yazarken: 15 sa 28 dk</title>
+  <title id="baslik">Bu hafta kod yazarken: 16 sa 57 dk</title>
   <style>
     .baslik { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #7c3aed; }
     .ozet { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58; }
@@ -13,37 +13,37 @@
   </style>
   <rect x="0.5" y="0.5" width="809" height="253" rx="4.5" fill="#fffefe" />
   <text x="25" y="35" class="baslik">Bu Hafta Kod Yazarken</text>
-  <text x="25" y="62" class="ozet">Toplam: 15 sa 28 dk</text>
+  <text x="25" y="62" class="ozet">Toplam: 16 sa 57 dk</text>
   <text x="785" y="62" class="aralik" text-anchor="end">4 Ekim – 10 Ekim</text>
   
     <g class="satir" style="animation-delay:150ms">
       <text x="25" y="100" class="dil">TypeScript</text>
       <rect x="150" y="91" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="91" width="325.9" height="8" rx="4" fill="#3178c6" class="dolgu" />
-      <text x="785" y="100" class="deger" text-anchor="end">10 sa 24 dk · %67,2</text>
+      <rect x="150" y="91" width="339.6" height="8" rx="4" fill="#3178c6" class="dolgu" />
+      <text x="785" y="100" class="deger" text-anchor="end">11 sa 52 dk · %70,0</text>
     </g>
     <g class="satir" style="animation-delay:270ms">
       <text x="25" y="134" class="dil">Markdown</text>
       <rect x="150" y="125" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="125" width="54.2" height="8" rx="4" fill="#083fa1" class="dolgu" />
-      <text x="785" y="134" class="deger" text-anchor="end">1 sa 43 dk · %11,2</text>
+      <rect x="150" y="125" width="49.4" height="8" rx="4" fill="#083fa1" class="dolgu" />
+      <text x="785" y="134" class="deger" text-anchor="end">1 sa 43 dk · %10,2</text>
     </g>
     <g class="satir" style="animation-delay:390ms">
       <text x="25" y="168" class="dil">JavaScript</text>
       <rect x="150" y="159" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="159" width="46.2" height="8" rx="4" fill="#6e7781" class="dolgu" />
-      <text x="785" y="168" class="deger" text-anchor="end">1 sa 28 dk · %9,5</text>
+      <rect x="150" y="159" width="42.1" height="8" rx="4" fill="#6e7781" class="dolgu" />
+      <text x="785" y="168" class="deger" text-anchor="end">1 sa 28 dk · %8,7</text>
     </g>
     <g class="satir" style="animation-delay:510ms">
       <text x="25" y="202" class="dil">Other</text>
       <rect x="150" y="193" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="193" width="34.3" height="8" rx="4" fill="#7c3aed" class="dolgu" />
-      <text x="785" y="202" class="deger" text-anchor="end">1 sa 5 dk · %7,1</text>
+      <rect x="150" y="193" width="31.5" height="8" rx="4" fill="#7c3aed" class="dolgu" />
+      <text x="785" y="202" class="deger" text-anchor="end">1 sa 6 dk · %6,5</text>
     </g>
     <g class="satir" style="animation-delay:630ms">
       <text x="25" y="236" class="dil">JSON</text>
       <rect x="150" y="227" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="227" width="8.8" height="8" rx="4" fill="#292929" class="dolgu" />
-      <text x="785" y="236" class="deger" text-anchor="end">16 dk · %1,8</text>
+      <rect x="150" y="227" width="8.0" height="8" rx="4" fill="#292929" class="dolgu" />
+      <text x="785" y="236" class="deger" text-anchor="end">16 dk · %1,7</text>
     </g>
 </svg>
