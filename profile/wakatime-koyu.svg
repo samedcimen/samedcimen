@@ -14,7 +14,7 @@
   <rect x="0.5" y="0.5" width="809" height="253" rx="4.5" fill="#0d1117" />
   <text x="25" y="35" class="baslik">Bu Hafta Kod Yazarken</text>
   <text x="25" y="62" class="ozet">Toplam: 4 sa 55 dk</text>
-  <text x="785" y="62" class="aralik" text-anchor="end">15 Ekim – 21 Ekim</text>
+  <text x="785" y="62" class="aralik" text-anchor="end">16 Ekim – 22 Ekim</text>
   
     <g class="satir" style="animation-delay:150ms">
       <text x="25" y="100" class="dil">TypeScript</text>
