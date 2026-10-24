@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=28&duration=3000&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&height=50&lines=Merhaba%2C+ben+Samed+%F0%9F%91%8B;Next.js+%26+React+ile+web+geli%C5%9Ftiriyorum;%C5%9Eu+s%C4%B1ralar%3A+izleoloji+%F0%9F%8E%AC;Portfolyom%3A+samedcimen.github.io+%E2%9C%A8" alt="Merhaba, ben Samed" />
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=28&duration=3000&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&height=50&lines=Merhaba%2C+ben+Samed+%F0%9F%91%8B;Next.js+%26+React+ile+web+geli%C5%9Ftiriyorum;%C5%9Eu+s%C4%B1ralar%3A+Oranoloji+%F0%9F%93%8A;Portfolyom%3A+samedcimen.github.io+%E2%9C%A8" alt="Merhaba, ben Samed" />
 
 ![Profil görüntülenme](https://komarev.com/ghpvc/?username=samedcimen&label=Profil%20g%C3%B6r%C3%BCnt%C3%BClenme&color=8b5cf6&style=for-the-badge)
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/samedcimen)
@@ -13,13 +13,35 @@
 ### 👨‍💻 Hakkımda
 
 Next.js ve React ile web uygulamaları geliştiriyorum. Projelerimin tamamı **[samedcimen.github.io](https://samedcimen.github.io)** adresinde.<br />
-Şu sıralar **[izleoloji](https://izleoloji.vercel.app)** üzerinde çalışıyorum: izlediğin film ve dizileri kaydedip arkadaşlarınla paylaşabileceğin bir platform. 🎬<br />
-Bir de **[ppbüyüt](https://ppbuyut.com)** var: 19 platformda profil fotoğraflarını tam boyutta gösteren, reklamsız ve kayıtsız bir araç. 🔍
+Şu sıralar **Oranoloji** üzerinde çalışıyorum: oranları birebir aynı açılmış geçmiş maçları bulan, banko seçimler, maç asistanı ve kendi Telegram grubu olan kişisel bir oran analizi platformu. 📊<br />
+Bir de **[izleoloji](https://izleoloji.vercel.app)** var: izlediğin film ve dizileri kaydedip arkadaşlarınla paylaşabileceğin bir platform. 🎬<br />
+**[ppbüyüt](https://ppbuyut.com)** ise 19 platformda profil fotoğraflarını tam boyutta gösteren, reklamsız ve kayıtsız bir araç. 🔍
+
+### 🚧 Son zamanlarda uğraştıklarım
+
+<table>
+  <tr>
+    <td width="50%" valign="top">📊 <b>Oranoloji</b><br /><sub>Oranları birebir aynı açılmış geçmiş maçlar, banko seçimler, maç asistanı, 13 konulu Telegram grubu</sub></td>
+    <td width="50%" valign="top">🧮 <b>Maçkolik Sıra</b><br /><sub>Günün İddaa maçlarının saat ve lig sıraları, dönen maçlar ve adresleri</sub></td>
+  </tr>
+  <tr>
+    <td valign="top">⚡ <b>Sürpriz Radar</b><br /><sub>Canlı skor ve oran takibi; devre arasında favorisi geride kalan maçları yakalar</sub></td>
+    <td valign="top">⚽ <b>Maç Özetleri</b><br /><sub>Süper Lig maç özetleri, goller ve dakika dakika olaylar</sub></td>
+  </tr>
+  <tr>
+    <td valign="top">📻 <b>Radyoloji</b><br /><sub>Radyo kanallarını tek yerde toplayan dinleme platformu</sub></td>
+    <td valign="top">🎬 <b>Dizi Film Sistemi</b><br /><sub>Dizi, film ve oyuncu araştırması, arşive indirme</sub></td>
+  </tr>
+  <tr>
+    <td valign="top">🎟️ <b>Kupon Takip</b><br /><sub>Arkadaş grubunda kim hangi maçta ne verdi: ortak kupon takibi</sub></td>
+    <td valign="top">🎮 <b>Queen PlayStation Kafe</b><br /><sub>Kafe için PS3 oyun kütüphanesi</sub></td>
+  </tr>
+</table>
 
 ### 🛠️ Kullandığım araçlar
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,nodejs,vercel,vscode&perline=8" alt="Next.js, React, TypeScript, Tailwind CSS, Prisma, Node.js, Vercel, VS Code" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,sqlite,nodejs,vercel,vscode&perline=9" alt="Next.js, React, TypeScript, Tailwind CSS, Prisma, SQLite, Node.js, Vercel, VS Code" />
 </a>
 
 ### 📊 GitHub istatistikleri
