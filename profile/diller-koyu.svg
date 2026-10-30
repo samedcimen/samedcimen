@@ -134,7 +134,7 @@
       
     <svg width="305" x="0" y="25">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="305" height="8"></rect>
-      <svg data-testid="lang-progress" width="98.41590511725157%">
+      <svg data-testid="lang-progress" width="98.42152264045619%">
         <rect
             height="8"
             fill="#3178c6"
@@ -149,7 +149,7 @@
   </g><g transform="translate(0, 40)">
     <g class="stagger" style="animation-delay: 600ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">CSS</text>
-      <text x="315" y="34" class="lang-name">1.15%</text>
+      <text x="315" y="34" class="lang-name">1.14%</text>
       
     <svg width="305" x="0" y="25">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="305" height="8"></rect>
