@@ -1,14 +1,21 @@
 // WakaTime'dan son 7 günün (bugün dahil) kodlama süresini çekip profil kartlarıyla
 // aynı tasarımda Türkçe SVG kart üretir: profile/wakatime-koyu.svg ve wakatime-acik.svg.
 //
-// Kullanım: WAKATIME_API_KEY=... node scripts/wakatime-kart.mjs
+// Veri WakaTime paylaşım bağlantılarından (https://wakatime.com/share/embed, Format: JSON, Date Range: Last 7 Days):
+//   WAKATIME_ETKINLIK_URL  Chart Type: Coding Activity  (günlük toplamlar, bugün dahil)
+//   WAKATIME_DILLER_URL    Chart Type: Languages        (dillerin yüzdesi)
+// WakaTime Kasım 2026'da API anahtarlarını yalnız editör eklentilerine açtı ("API Keys are only for plugins");
+// paylaşım bağlantısı anahtarsız çalışır, süresi dolmaz ve yalnız o grafiği gösterir.
+//
+// Kullanım: WAKATIME_ETKINLIK_URL=... WAKATIME_DILLER_URL=... node scripts/wakatime-kart.mjs
 // Dil renkleri: scripts/dil-renkleri.json (github-stats-extended, MIT lisansı).
 
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 
-const anahtar = process.env.WAKATIME_API_KEY;
-if (!anahtar) {
-    console.error("WAKATIME_API_KEY tanımlı değil.");
+const etkinlikAdresi = process.env.WAKATIME_ETKINLIK_URL;
+const dillerAdresi = process.env.WAKATIME_DILLER_URL;
+if (!etkinlikAdresi || !dillerAdresi) {
+    console.error("WAKATIME_ETKINLIK_URL ve WAKATIME_DILLER_URL tanımlı olmalı.");
     process.exit(1);
 }
 
@@ -23,30 +30,25 @@ const TEMALAR = {
 
 // ── Veri ──────────────────────────────────────────────────────────────────────
 
-// Günlük özetler bugünü de içerir (haftalık "stats" uç noktası yalnızca bitmiş günleri sayar)
-const yanit = await fetch("https://wakatime.com/api/v1/users/current/summaries?range=last_7_days", {
-    headers: { Authorization: `Basic ${Buffer.from(anahtar).toString("base64")}` },
-});
-if (!yanit.ok) {
-    console.error(`WakaTime API hatası: ${yanit.status} ${await yanit.text()}`);
-    process.exit(1);
-}
-const { data: gunler } = await yanit.json();
-
-const diller = new Map();
-let toplamSaniye = 0;
-for (const gun of gunler) {
-    toplamSaniye += gun.grand_total?.total_seconds ?? 0;
-    for (const dil of gun.languages ?? []) {
-        diller.set(dil.name, (diller.get(dil.name) ?? 0) + dil.total_seconds);
+async function jsonAl(adres, ad) {
+    const yanit = await fetch(adres);
+    if (!yanit.ok) {
+        console.error(`WakaTime ${ad} bağlantısı hatası: ${yanit.status} ${await yanit.text()}`);
+        process.exit(1);
     }
+    return (await yanit.json()).data ?? [];
 }
 
-const enCok = [...diller.entries()]
-    .filter(([, sn]) => sn >= 60)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, DIL_SAYISI)
-    .map(([ad, sn]) => ({ ad, sn, yuzde: toplamSaniye ? (sn / toplamSaniye) * 100 : 0 }));
+// Günlük toplamlar bugünü de içerir; diller yalnız yüzde verir, süre toplamdan hesaplanır.
+const [gunler, dilYuzdeleri] = await Promise.all([jsonAl(etkinlikAdresi, "etkinlik"), jsonAl(dillerAdresi, "diller")]);
+
+const toplamSaniye = gunler.reduce((t, gun) => t + (gun.grand_total?.total_seconds ?? 0), 0);
+
+const enCok = dilYuzdeleri
+    .map((d) => ({ ad: d.name, yuzde: d.percent ?? 0, sn: ((d.percent ?? 0) / 100) * toplamSaniye }))
+    .filter((d) => d.sn >= 60)
+    .sort((a, b) => b.yuzde - a.yuzde)
+    .slice(0, DIL_SAYISI);
 
 // ── Biçimlendirme ─────────────────────────────────────────────────────────────
 

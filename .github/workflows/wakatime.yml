@@ -1,6 +1,7 @@
 # WakaTime'daki son 7 günün (bugün dahil) kodlama süresinden Türkçe kart üretir:
 # profile/wakatime-koyu.svg ve profile/wakatime-acik.svg (scripts/wakatime-kart.mjs).
-# WAKATIME_API_KEY secret'ı yoksa hiçbir şey yapmadan başarıyla biter.
+# Veri WakaTime paylaşım bağlantılarından (secret: WAKATIME_ETKINLIK_URL, WAKATIME_DILLER_URL); ikisi de yoksa
+# hiçbir şey yapmadan başarıyla biter.
 name: WakaTime
 
 on:
@@ -19,11 +20,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
-      ANAHTAR_VAR: ${{ secrets.WAKATIME_API_KEY != '' }}
+      ANAHTAR_VAR: ${{ secrets.WAKATIME_ETKINLIK_URL != '' && secrets.WAKATIME_DILLER_URL != '' }}
     steps:
       - name: Anahtar yok, atlanıyor
         if: env.ANAHTAR_VAR != 'true'
-        run: echo "WAKATIME_API_KEY secret'ı tanımlı değil, WakaTime kartı güncellenmedi."
+        run: echo "WAKATIME_ETKINLIK_URL / WAKATIME_DILLER_URL secret'ı tanımlı değil, WakaTime kartı güncellenmedi."
 
       - uses: actions/checkout@v6
         if: env.ANAHTAR_VAR == 'true'
@@ -37,7 +38,8 @@ jobs:
         if: env.ANAHTAR_VAR == 'true'
         run: node scripts/wakatime-kart.mjs
         env:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKATIME_ETKINLIK_URL: ${{ secrets.WAKATIME_ETKINLIK_URL }}
+          WAKATIME_DILLER_URL: ${{ secrets.WAKATIME_DILLER_URL }}
 
       - name: Kartı kaydet
         if: env.ANAHTAR_VAR == 'true'
