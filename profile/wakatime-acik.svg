@@ -19,31 +19,31 @@
     <g class="satir" style="animation-delay:150ms">
       <text x="25" y="100" class="dil">TypeScript</text>
       <rect x="150" y="91" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="91" width="348.5" height="8" rx="4" fill="#3178c6" class="dolgu" />
+      <rect x="150" y="91" width="348.6" height="8" rx="4" fill="#3178c6" class="dolgu" />
       <text x="785" y="100" class="deger" text-anchor="end">6 sa 4 dk · %71,9</text>
     </g>
     <g class="satir" style="animation-delay:270ms">
       <text x="25" y="134" class="dil">Python</text>
       <rect x="150" y="125" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="125" width="60.2" height="8" rx="4" fill="#3572A5" class="dolgu" />
-      <text x="785" y="134" class="deger" text-anchor="end">1 sa 3 dk · %12,4</text>
+      <rect x="150" y="125" width="45.4" height="8" rx="4" fill="#3572A5" class="dolgu" />
+      <text x="785" y="134" class="deger" text-anchor="end">47 dk · %9,4</text>
     </g>
     <g class="satir" style="animation-delay:390ms">
       <text x="25" y="168" class="dil">Markdown</text>
       <rect x="150" y="159" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="159" width="27.1" height="8" rx="4" fill="#083fa1" class="dolgu" />
-      <text x="785" y="168" class="deger" text-anchor="end">28 dk · %5,6</text>
+      <rect x="150" y="159" width="42.5" height="8" rx="4" fill="#083fa1" class="dolgu" />
+      <text x="785" y="168" class="deger" text-anchor="end">44 dk · %8,8</text>
     </g>
     <g class="satir" style="animation-delay:510ms">
-      <text x="25" y="202" class="dil">CSS</text>
+      <text x="25" y="202" class="dil">JavaScript</text>
       <rect x="150" y="193" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="193" width="17.4" height="8" rx="4" fill="#663399" class="dolgu" />
-      <text x="785" y="202" class="deger" text-anchor="end">18 dk · %3,6</text>
+      <rect x="150" y="193" width="20.2" height="8" rx="4" fill="#6e7781" class="dolgu" />
+      <text x="785" y="202" class="deger" text-anchor="end">21 dk · %4,2</text>
     </g>
     <g class="satir" style="animation-delay:630ms">
-      <text x="25" y="236" class="dil">JavaScript</text>
+      <text x="25" y="236" class="dil">CSS</text>
       <rect x="150" y="227" width="485" height="8" rx="4" fill="#ddd" />
-      <rect x="150" y="227" width="16.8" height="8" rx="4" fill="#6e7781" class="dolgu" />
+      <rect x="150" y="227" width="16.9" height="8" rx="4" fill="#663399" class="dolgu" />
       <text x="785" y="236" class="deger" text-anchor="end">17 dk · %3,5</text>
     </g>
 </svg>
